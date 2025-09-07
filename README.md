@@ -57,11 +57,4 @@ Optional Enhancements:
 - Enhance UI with Bootstrap for better responsiveness
 - Connect to a database for saving ticket history
 
-Author:
--------
-Arya Jadhav
-Student
-Email: aryaajadhav16a@gmail.com
-GitHub: https://github.com/aryajadhav0416
---------
 This project is free to use for educational and demonstration purposes.
