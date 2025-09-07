@@ -1,0 +1,170 @@
+﻿body {
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    font-family: Tahoma;
+    color: white;
+    font-size: 30px;
+    background-color: red;
+    width: 400px;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.container {
+    height: 530px;
+    max-width: 1000px;
+    margin: 40px auto;
+    display: flex;
+    background-color: #f2f2f2;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 0px rgba(0,100,100,0.6);
+}
+
+.login-container {
+    flex: 1;
+    padding: 30px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.img-container {
+    flex: 1;
+    background-color: white;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    display: flex;
+    justify-content: center; /* Aligns horizontally */
+    align-items: center; /* Aligns vertically */
+}
+
+#logoApp {
+    width: 520px;
+    height: 250px;
+    background-color: yellow;
+    object-fit: cover;
+    border-radius: 20%;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+.input-container {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+    .input-container input {
+        width: 100%;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+#Login {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.forgot-password,
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .forgot-password a,
+    .signup-link a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        .forgot-password a:hover,
+        .signup-link a:hover {
+            text-decoration: underline;
+        }
+
+.signup-link {
+    margin-top: 10px;
+}
+
+/* OTP Modal Styles */
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.otp-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.otp-input {
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+}
